@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Day array-->
+    <string-array name="day_name_array">
+        <item>DAILY</item>
+        <item>SAT</item>
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+    </string-array>
+
+    <!--Time ap/pm array-->
+    <string-array name="time_array">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+</resources>

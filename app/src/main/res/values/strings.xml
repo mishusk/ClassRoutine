@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ClassRoutine</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="lyout_circle">Layout_circle</string>
+    <string name="txtDate">Txt_full_date</string>
+    <string name="txtRoom">Txt_room_nu</string>
+    <string name="txtSub">Txt_sub_name</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="titleAddSubject">ALL SUBJECT LIST</string>
+    <string name="hintSubjectName">Subject Name</string>
+    <string name="addBtn">add</string>
+    <string name="all_classes">ALL CLASSES</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="time">Time:</string>
+    <string name="room">Room:</string>
+    <string name="day">Day:</string>
+    <string name="duration">Duration:</string>
+    <string name="roomNumber">Room Nu:</string>
+    <string name="durationMinute">60 Minute</string>
+    <string name="dateToday">12/12/2016</string>
+    <string name="class_start_time">17:12</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_event_birthday">Today is my birthday</string>
+    <string name="title_random_text">date and details here.</string>
+    <string name="exit">Exit</string>
+    <string name="date">Date</string>
+</resources>

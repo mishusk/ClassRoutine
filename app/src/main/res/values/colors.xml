@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorFab">#b2b5b9</color>
+    <color name="colorBottomPanel">#dee0e2</color>
+
+    <color name="colorPrimary">#8c8c8c</color>
+    <color name="colorPrimaryDark">#5f5f60</color>
+    <color name="colorAccent">#3e4e9e</color>
+    <color name="colorTextHint">#d6d6d6</color>
+
+    <color name="my_shape_ractangle">#e2e1e1</color>
+    <color name="titleLableColer">#3a3a3b</color>
+    <color name="circle_color">#c6b4b4b4</color>
+    <color name="circleSubjectName">#094260</color>
+
+    <color name="color_text_blck">#000000</color>
+
+</resources>

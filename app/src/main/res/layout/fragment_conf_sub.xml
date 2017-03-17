@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTv_fragAddSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/titleAddSubject"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <EditText
+                android:inputType="textAutoComplete"
+                android:id="@+id/subjectNameEt_fragAddSub"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4.4"
+                android:gravity="center"
+                android:hint="@string/hintSubjectName"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageButton
+                android:id="@+id/addSubjectAddNameBtn"
+                android:layout_width="0dp"
+                android:onClick="saveSubjectName"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:background="@drawable/add_circle"
+                android:text="@string/addBtn" />
+        </LinearLayout>
+
+
+        <ListView
+            tools:listitem="@layout/list_row_subject"
+            android:id="@+id/subjectNameListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>

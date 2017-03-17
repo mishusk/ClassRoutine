@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <adapter.CircleFillView
+            android:id="@+id/circleClassDurationStatus"
+            android:layout_width="match_parent"
+            android:layout_height="213sp"
+            android:background="#ffffff"
+            android:visibility="visible"
+            custom:fillColor="@color/colorPrimary"
+            custom:strokeColor="@color/colorPrimaryDark"
+            custom:strokeWidth="12" />
+
+        <TextView
+            android:id="@+id/timeTv_main_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/roomTv_main_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/room"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/circleClassDurationStatus"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@id/circleClassDurationStatus"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subNameTv_main_listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subject_name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/circleSubjectName" />
+
+            <TextView
+                android:id="@+id/classDurationTv_main_listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Duration : 120 Minutes" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
