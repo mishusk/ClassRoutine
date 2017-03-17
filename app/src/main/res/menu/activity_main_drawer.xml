@@ -6,15 +6,15 @@
             <menu>
                 <item
                     android:id="@+id/nav_main_activity"
-                    android:icon="@drawable/home"
+                    android:icon="@drawable/ic_home_black"
                     android:title="Today" />
                 <item
                     android:id="@+id/nav_full_routine"
-                    android:icon="@drawable/check_rectengle"
+                    android:icon="@drawable/ic_schedule_black"
                     android:title="All Class" />
                 <item
                     android:id="@+id/nav_notes"
-                    android:icon="@drawable/add_circle"
+                    android:icon="@drawable/ic_note_add_black"
                     android:title="Note" />
                 <item
                     android:id="@+id/nav_exam"
@@ -29,15 +29,15 @@
             <menu>
                 <item
                     android:id="@+id/nav_conf_subject"
-                    android:icon="@drawable/add_circle"
+                    android:icon="@drawable/ic_subject_black"
                     android:title="Add Subject" />
                 <item
                     android:id="@+id/nav_conf_routine"
-                    android:icon="@drawable/add_circle"
+                    android:icon="@drawable/ic_av_timer_black"
                     android:title="Add Class" />
                 <item
                     android:id="@+id/nav_conf_exam"
-                    android:icon="@drawable/add_circle"
+                    android:icon="@drawable/ic_class_black"
                     android:title="Exam Schedule" />
                 <item
                     android:id="@+id/nav_calender"
